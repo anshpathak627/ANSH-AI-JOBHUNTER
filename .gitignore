@@ -1,0 +1,35 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local data and personal files
+data/
+*.db
+*.sqlite
+*.sqlite3
+resumes/
+uploads/
+logs/
+
+# Browser profiles
+browser_data/
+user_data/
+playwright/.cache/
+
+# Archives and OS files
+*.zip
+.DS_Store
+Thumbs.db
